@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}Profile | AI Career Assistant{% endblock %}
+{% block content %}
+<section class="mx-auto max-w-3xl rounded-2xl border border-slate-200 bg-white p-7 shadow-sm sm:p-9">
+  <h1 class="text-2xl font-bold">Your student profile</h1>
+  <p class="mt-2 text-sm text-slate-600">Add details and preferences to personalize your career workspace.</p>
+  <form class="mt-7 grid gap-5 sm:grid-cols-2" method="post">
+    {{ form.hidden_tag() }}
+    {% for field in [form.name, form.college, form.degree, form.branch, form.graduation_year, form.preferred_locations, form.preferred_domains, form.internship_type, form.minimum_stipend] %}
+      <div>
+        {{ field.label(class="mb-1 block text-sm font-medium text-slate-700") }}
+        {{ field(class="w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5 outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-100") }}
+        {% for error in field.errors %}<p class="mt-1 text-sm text-rose-700">{{ error }}</p>{% endfor %}
+      </div>
+    {% endfor %}
+    <div class="sm:col-span-2">{{ form.submit(class="rounded-lg bg-indigo-600 px-5 py-3 font-semibold text-white hover:bg-indigo-700") }}</div>
+  </form>
+</section>
+{% endblock %}

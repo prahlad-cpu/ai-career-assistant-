@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}AI Career Assistant | Your next opportunity starts here{% endblock %}
+{% block content %}
+<section class="grid items-center gap-10 py-10 md:grid-cols-2 md:py-20">
+  <div>
+    <p class="mb-4 inline-flex rounded-full bg-indigo-50 px-3 py-1 text-sm font-semibold text-indigo-700">Personalized internship discovery</p>
+    <h1 class="max-w-xl text-4xl font-bold leading-tight tracking-tight md:text-5xl">Make your next career move with confidence.</h1>
+    <p class="mt-5 max-w-lg text-lg leading-8 text-slate-600">AI Career Assistant brings your career profile and internship journey together. Start with your student profile today.</p>
+    <div class="mt-8 flex flex-wrap gap-3">
+      <a class="rounded-lg bg-indigo-600 px-5 py-3 font-semibold text-white shadow-sm hover:bg-indigo-700" href="{{ url_for('auth.register') }}">Get started</a>
+      <a class="rounded-lg border border-slate-300 bg-white px-5 py-3 font-semibold text-slate-700 hover:bg-slate-100" href="{{ url_for('auth.login') }}">Sign in</a>
+    </div>
+  </div>
+  <div class="rounded-3xl border border-indigo-100 bg-white p-8 shadow-sm">
+    <p class="text-sm font-semibold uppercase tracking-wide text-indigo-600">Your career workspace</p>
+    <div class="mt-6 space-y-4">
+      <div class="rounded-xl bg-slate-50 p-4">
+        <h2 class="font-semibold">Build your student profile</h2>
+        <p class="mt-1 text-sm text-slate-600">Keep your education and internship preferences in one place.</p>
+      </div>
+      <div class="rounded-xl bg-slate-50 p-4">
+        <h2 class="font-semibold">Get ready for what's next</h2>
+        <p class="mt-1 text-sm text-slate-600">Your dashboard is the starting point for your internship journey.</p>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
