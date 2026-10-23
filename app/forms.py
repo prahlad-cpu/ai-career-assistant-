@@ -1,7 +1,15 @@
 """Validated server-rendered forms."""
 
 from flask_wtf import FlaskForm
-from wtforms import BooleanField, IntegerField, PasswordField, SelectField, StringField, SubmitField
+from wtforms import (
+    BooleanField,
+    FileField,
+    IntegerField,
+    PasswordField,
+    SelectField,
+    StringField,
+    SubmitField,
+)
 from wtforms.validators import (
     DataRequired,
     EqualTo,
@@ -18,12 +26,21 @@ EMAIL_VALIDATOR = Regexp(
 )
 
 
+def _strip_whitespace(value: str | None) -> str | None:
+    """Trim submitted optional form data while allowing an empty initial value."""
+    return value.strip() if value is not None else None
+
+
 class RegistrationForm(FlaskForm):
     """New-account form."""
 
-    name = StringField("Full name", filters=[str.strip], validators=[DataRequired(), Length(max=120)])
+    name = StringField(
+        "Full name", filters=[_strip_whitespace], validators=[DataRequired(), Length(max=120)]
+    )
     email = StringField(
-        "Email", filters=[str.strip], validators=[DataRequired(), Length(max=254), EMAIL_VALIDATOR]
+        "Email",
+        filters=[_strip_whitespace],
+        validators=[DataRequired(), Length(max=254), EMAIL_VALIDATOR],
     )
     password = PasswordField("Password", validators=[DataRequired(), Length(min=8, max=128)])
     confirm_password = PasswordField(
@@ -35,7 +52,9 @@ class RegistrationForm(FlaskForm):
 class LoginForm(FlaskForm):
     """Account login form."""
 
-    email = StringField("Email", filters=[str.strip], validators=[DataRequired(), EMAIL_VALIDATOR])
+    email = StringField(
+        "Email", filters=[_strip_whitespace], validators=[DataRequired(), EMAIL_VALIDATOR]
+    )
     password = PasswordField("Password", validators=[DataRequired()])
     remember_me = BooleanField("Remember me")
     submit = SubmitField("Sign in")
@@ -44,7 +63,9 @@ class LoginForm(FlaskForm):
 class ProfileForm(FlaskForm):
     """Basic student profile and internship preferences form."""
 
-    name = StringField("Full name", filters=[str.strip], validators=[DataRequired(), Length(max=120)])
+    name = StringField(
+        "Full name", filters=[_strip_whitespace], validators=[DataRequired(), Length(max=120)]
+    )
     college = StringField("College", validators=[Optional(), Length(max=160)])
     degree = StringField("Degree", validators=[Optional(), Length(max=120)])
     branch = StringField("Branch", validators=[Optional(), Length(max=120)])
@@ -62,3 +83,10 @@ class ProfileForm(FlaskForm):
         "Minimum stipend (INR/month)", validators=[Optional(), NumberRange(min=0)]
     )
     submit = SubmitField("Save profile")
+
+
+class ResumeUploadForm(FlaskForm):
+    """Resume document upload form."""
+
+    resume_file = FileField("Resume file", validators=[DataRequired()])
+    submit = SubmitField("Upload and analyze")

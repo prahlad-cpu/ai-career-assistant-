@@ -1,9 +1,10 @@
 # AI Career Assistant
 
-Phase 1 delivers the Flask application foundation: account registration and
-login, a student profile with internship preferences, and an authenticated
-dashboard. Resume analysis and internship matching are intentionally not part
-of this phase.
+Phase 2 delivers the Flask application foundation and resume analysis:
+account registration and login, a student profile, an authenticated dashboard,
+private PDF/DOCX uploads, rule-based section and skill extraction, and a
+structured profile view. Internship matching and ATS scoring are intentionally
+left for later phases.
 
 ## Run locally
 
@@ -13,13 +14,17 @@ Requires Python 3.11 or newer.
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
+Copy-Item .env.example .env
 python -m flask --app wsgi run --debug
 ```
 
-Open <http://127.0.0.1:5000>. The first launch creates a local SQLite database
-in Flask's instance directory. Local defaults work without environment
-variables; `.env.example` documents the settings to provide to the process when
-overriding them. The app can also be started with `python wsgi.py`.
+Open <http://127.0.0.1:5000>. Register, then choose **Resumes** to upload a
+PDF or DOCX (maximum 5 MB). Scanned/image-only PDFs are rejected because they
+do not contain selectable text. The original upload is deleted once parsing
+finishes; the normalized text and extracted profile are stored in the database.
+The first launch creates a local SQLite database in Flask's instance directory.
+Edit `.env` to override local settings. The app can also be started with
+`python wsgi.py` when environment variables are already configured.
 
 ## Tests
 
@@ -37,6 +42,14 @@ python -m pytest
 
 Production requires `SECRET_KEY` to be set before deployment. Secure session
 cookies are enabled in the production configuration.
+
+## Resume parsing
+
+The parser uses `pdfplumber` for selectable PDF text and `python-docx` for
+Word documents. A curated JSON taxonomy contains 300+ canonical skills and
+aliases; detected skills are grouped by category. Users can keep several
+resumes and choose which profile is active. Resume analysis routes are scoped
+to the signed-in user.
 
 ## Project status
 

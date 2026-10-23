@@ -28,4 +28,4 @@ class Resume(db.Model):
     created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True), default=lambda: datetime.now(timezone.utc), nullable=False
     )
-    user: Mapped[User] = relationship(back_populates="resumes")
+    user: Mapped["User"] = relationship(back_populates="resumes")

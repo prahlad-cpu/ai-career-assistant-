@@ -4,6 +4,8 @@ from __future__ import annotations
 
 import os
 
+MAX_RESUME_BYTES = 5 * 1024 * 1024
+
 
 class Config:
     """Shared settings for all environments."""
@@ -17,6 +19,9 @@ class Config:
     SESSION_COOKIE_SECURE = False
     SESSION_COOKIE_SAMESITE = "Lax"
     WTF_CSRF_ENABLED = True
+    MAX_RESUME_BYTES = MAX_RESUME_BYTES
+    MAX_CONTENT_LENGTH = MAX_RESUME_BYTES + 64 * 1024
+    UPLOAD_FOLDER: str | None = None
 
 
 class DevelopmentConfig(Config):

@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+{% block title %}Resume analysis | AI Career Assistant{% endblock %}
+{% block content %}
+{% set profile = resume.profile_json or {} %}
+<section class="mx-auto max-w-5xl">
+  <a class="text-sm font-semibold text-indigo-700 hover:text-indigo-900" href="{{ url_for('resumes.index') }}">← All resumes</a>
+  <div class="mt-4 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+    <div>
+      <p class="text-sm font-semibold uppercase tracking-wide text-indigo-600">Parsed resume</p>
+      <h1 class="mt-2 text-3xl font-bold tracking-tight">{{ profile.get("name") or resume.original_filename }}</h1>
+      <p class="mt-2 text-slate-600">{{ resume.original_filename }}</p>
+    </div>
+    {% if resume.is_active %}
+      <span class="w-fit rounded-full bg-emerald-50 px-3 py-1.5 text-sm font-semibold text-emerald-800">Active resume</span>
+    {% else %}
+      <form method="post" action="{{ url_for('resumes.activate', resume_id=resume.id) }}">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+        <button class="rounded-lg border border-slate-300 px-4 py-2 text-sm font-semibold hover:bg-white" type="submit">Set as active</button>
+      </form>
+    {% endif %}
+  </div>
+
+  <div class="mt-7 grid gap-5 md:grid-cols-2">
+    <article class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+      <h2 class="text-lg font-semibold">Contact</h2>
+      <dl class="mt-4 space-y-2 text-sm">
+        {% if profile.get("email") %}<div><dt class="inline font-medium text-slate-500">Email: </dt><dd class="inline">{{ profile.get("email") }}</dd></div>{% endif %}
+        {% if profile.get("phone") %}<div><dt class="inline font-medium text-slate-500">Phone: </dt><dd class="inline">{{ profile.get("phone") }}</dd></div>{% endif %}
+        {% for service, links in profile.get("links", {}).items() %}
+          {% for link in links %}<div><dt class="inline font-medium capitalize text-slate-500">{{ service }}: </dt><dd class="inline break-all">{{ link }}</dd></div>{% endfor %}
+        {% endfor %}
+        {% if not profile.get("email") and not profile.get("phone") and not profile.get("links", {}).get("linkedin") and not profile.get("links", {}).get("github") %}
+          <p class="text-slate-500">No contact details were detected.</p>
+        {% endif %}
+      </dl>
+    </article>
+    <article class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+      <h2 class="text-lg font-semibold">Detected sections</h2>
+      {% if profile.get("sections") %}
+        <ul class="mt-4 flex flex-wrap gap-2">
+          {% for section in profile.get("sections", []) %}
+            <li class="rounded-full bg-indigo-50 px-3 py-1 text-sm font-medium capitalize text-indigo-800">{{ section }}</li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p class="mt-3 text-sm text-slate-500">No standard section headings were detected.</p>
+      {% endif %}
+    </article>
+  </div>
+
+  <div class="mt-5 grid gap-5 md:grid-cols-2">
+    <article class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+      <h2 class="text-lg font-semibold">Skills</h2>
+      {% if profile.get("skills") %}
+        <div class="mt-4 space-y-4">
+          {% for category, skills in profile.get("skills", {}).items() %}
+            <div>
+              <h3 class="text-sm font-medium text-slate-500">{{ category }}</h3>
+              <ul class="mt-2 flex flex-wrap gap-2">
+                {% for skill in skills %}<li class="rounded-full bg-slate-100 px-3 py-1 text-sm">{{ skill }}</li>{% endfor %}
+              </ul>
+            </div>
+          {% endfor %}
+        </div>
+      {% else %}
+        <p class="mt-3 text-sm text-slate-500">No skills from the curated taxonomy were detected.</p>
+      {% endif %}
+    </article>
+    <article class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+      <h2 class="text-lg font-semibold">Education</h2>
+      {% if profile.get("education") %}
+        <ul class="mt-3 space-y-2 text-sm text-slate-700">{% for item in profile.get("education", []) %}<li>{{ item }}</li>{% endfor %}</ul>
+      {% else %}
+        <p class="mt-3 text-sm text-slate-500">No education section was detected.</p>
+      {% endif %}
+    </article>
+    {% for section, heading in [("projects", "Projects"), ("experience", "Experience"), ("certifications", "Certifications"), ("achievements", "Achievements")] %}
+      <article class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <h2 class="text-lg font-semibold">{{ heading }}</h2>
+        {% if profile.get(section) %}
+          <ul class="mt-3 space-y-2 text-sm leading-6 text-slate-700">{% for item in profile.get(section, []) %}<li>{{ item }}</li>{% endfor %}</ul>
+        {% else %}
+          <p class="mt-3 text-sm text-slate-500">No {{ heading|lower }} section was detected.</p>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </div>
+
+  {% if profile.get("summary") %}
+    <article class="mt-5 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+      <h2 class="text-lg font-semibold">Summary</h2>
+      <p class="mt-3 whitespace-pre-line text-sm leading-6 text-slate-700">{{ profile.get("summary") }}</p>
+    </article>
+  {% endif %}
+  <details class="mt-5 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+    <summary class="cursor-pointer font-semibold">View normalized resume text</summary>
+    <pre class="mt-4 whitespace-pre-wrap break-words text-sm leading-6 text-slate-700">{{ resume.parsed_text }}</pre>
+  </details>
+</section>
+{% endblock %}

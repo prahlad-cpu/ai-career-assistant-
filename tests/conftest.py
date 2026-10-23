@@ -8,9 +8,20 @@ from app.models import User
 
 
 @pytest.fixture()
-def app():
+def sample_resume_text():
+    """Load the human-readable student resume fixture."""
+    from pathlib import Path
+
+    return (Path(__file__).parent / "fixtures" / "student_resume.txt").read_text(
+        encoding="utf-8"
+    )
+
+
+@pytest.fixture()
+def app(tmp_path):
     """Provide an isolated application with a fresh in-memory database."""
     application = create_app("testing")
+    application.config["UPLOAD_FOLDER"] = str(tmp_path / "uploads")
     with application.app_context():
         db.drop_all()
         db.create_all()

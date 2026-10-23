@@ -2,6 +2,10 @@
 
 from flask import Blueprint, redirect, render_template, url_for
 from flask_login import current_user, login_required
+from sqlalchemy import select
+
+from app.extensions import db
+from app.models import Resume
 
 main_bp = Blueprint("main", __name__)
 
@@ -18,4 +22,10 @@ def index():
 @login_required
 def dashboard():
     """Show the signed-in user's career assistant dashboard."""
-    return render_template("main/dashboard.html")
+    active_resume = db.session.scalar(
+        select(Resume).where(
+            Resume.user_id == current_user.id,
+            Resume.is_active.is_(True),
+        )
+    )
+    return render_template("main/dashboard.html", active_resume=active_resume)

@@ -6,9 +6,11 @@ import os
 from typing import Any
 
 from flask import Flask, jsonify, render_template
+from werkzeug.exceptions import RequestEntityTooLarge
 
 from app.blueprints.auth import auth_bp
 from app.blueprints.main import main_bp
+from app.blueprints.resumes import resumes_bp
 from app.config import CONFIGS, Config
 from app.extensions import csrf, db, login_manager, migrate
 from app.models import User
@@ -39,6 +41,7 @@ def create_app(config_object: type[Config] | str | None = None) -> Flask:
 
     app.register_blueprint(auth_bp)
     app.register_blueprint(main_bp)
+    app.register_blueprint(resumes_bp)
 
     @login_manager.user_loader
     def load_user(user_id: str) -> User | None:
@@ -66,6 +69,10 @@ def create_app(config_object: type[Config] | str | None = None) -> Flask:
     def internal_error(_error):
         db.session.rollback()
         return render_template("errors/500.html"), 500
+
+    @app.errorhandler(RequestEntityTooLarge)
+    def upload_too_large(_error):
+        return render_template("errors/413.html"), 413
 
     with app.app_context():
         db.create_all()

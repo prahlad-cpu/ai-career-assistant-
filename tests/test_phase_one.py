@@ -33,6 +33,12 @@ def test_landing_page_links_to_registration_and_login(client):
     assert b"/login" in response.data
 
 
+def test_auth_and_resume_form_pages_render_without_submission(client):
+    assert client.get("/register").status_code == 200
+    assert client.get("/login").status_code == 200
+    assert client.get("/resumes/").status_code == 302
+
+
 def test_dashboard_requires_authentication(client):
     response = client.get("/dashboard")
 

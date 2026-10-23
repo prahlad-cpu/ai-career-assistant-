@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}File too large | AI Career Assistant{% endblock %}
+{% block content %}
+<section class="py-16 text-center">
+  <p class="text-sm font-semibold uppercase tracking-wide text-rose-600">Upload too large</p>
+  <h1 class="mt-3 text-3xl font-bold">That file is larger than 5 MB.</h1>
+  <p class="mt-3 text-slate-600">Choose a smaller PDF or DOCX resume and try again.</p>
+  {% if current_user.is_authenticated %}<a class="mt-6 inline-block font-semibold text-indigo-700" href="{{ url_for('resumes.index') }}">Back to resumes</a>{% endif %}
+</section>
+{% endblock %}

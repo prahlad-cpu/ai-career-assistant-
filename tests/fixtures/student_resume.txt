@@ -1,0 +1,25 @@
+Aarav Mehta
+aarav.mehta@example.com | +91 98765 43210
+https://linkedin.com/in/aarav-mehta | https://github.com/aaravmehta
+
+SUMMARY
+Computer science student building Python and React projects.
+
+EDUCATION
+B.Tech Computer Science, Northstar Institute, 2027
+
+SKILLS
+Python, JavaScript, React, Flask, PostgreSQL, Git, Docker, scikit-learn
+
+PROJECTS
+- Built a resume analyzer with Python and Flask.
+- Developed a React dashboard backed by PostgreSQL.
+
+EXPERIENCE
+- Software intern at Campus Labs, June 2025 to August 2025.
+
+CERTIFICATIONS
+AWS Certified Cloud Practitioner
+
+ACHIEVEMENTS
+- Won first place in the campus software showcase.

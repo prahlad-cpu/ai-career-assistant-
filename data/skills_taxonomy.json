@@ -1,0 +1,161 @@
+{
+  "categories": {
+    "Programming Languages": [
+      "Python", "JavaScript", "TypeScript", "Java", "C", "C++", "C#", "Go", "Rust", "Ruby",
+      "PHP", "Swift", "Kotlin", "Dart", "R", "Scala", "Perl", "Bash", "PowerShell", "SQL",
+      "MATLAB", "Julia", "Lua", "Haskell", "Elixir", "Clojure", "Objective-C", "Assembly",
+      "Fortran", "COBOL"
+    ],
+    "Frontend Development": [
+      "HTML", "CSS", "Sass", "Less", "React", "Next.js", "Vue.js", "Nuxt.js", "Angular",
+      "Svelte", "Astro", "Tailwind CSS", "Bootstrap", "Material UI", "Chakra UI", "Redux",
+      "Zustand", "MobX", "Webpack", "Vite", "Parcel", "Babel", "Storybook", "Web Components",
+      "Responsive Design", "Accessibility", "Progressive Web Apps", "Web Performance",
+      "Browser APIs", "Jinja"
+    ],
+    "Backend Development": [
+      "Flask", "Django", "FastAPI", "Express.js", "NestJS", "Node.js", "Spring Boot",
+      "ASP.NET Core", "Ruby on Rails", "Laravel", "Symfony", "Gin", "Fiber", "Actix",
+      "Phoenix Framework", "GraphQL", "REST API", "WebSockets", "gRPC", "OpenAPI",
+      "Microservices", "Serverless", "OAuth 2.0", "JWT", "Webhooks", "Celery", "RabbitMQ",
+      "Apache Kafka", "Redis", "Nginx"
+    ],
+    "Data Science and Machine Learning": [
+      "Machine Learning", "Deep Learning", "Natural Language Processing", "Computer Vision",
+      "Artificial Intelligence", "Generative AI", "Large Language Models", "Prompt Engineering", "PyTorch", "TensorFlow",
+      "Keras", "scikit-learn", "XGBoost", "LightGBM", "CatBoost", "Pandas", "NumPy",
+      "SciPy", "Matplotlib", "Seaborn", "Plotly", "Hugging Face", "Transformers",
+      "LangChain", "LlamaIndex", "OpenAI API", "Retrieval-Augmented Generation", "Vector Search",
+      "Feature Engineering", "Model Evaluation", "MLOps", "ONNX", "NLTK"
+    ],
+    "Cloud and DevOps": [
+      "Amazon Web Services", "Microsoft Azure", "Google Cloud Platform", "Docker", "Kubernetes",
+      "Helm", "Terraform", "Ansible", "Jenkins", "GitHub Actions", "GitLab CI", "CircleCI",
+      "Argo CD", "Prometheus", "Grafana", "Datadog", "Linux", "CI/CD", "Infrastructure as Code",
+      "AWS Lambda", "Amazon S3", "Amazon EC2", "Azure Functions", "Cloud Run", "Cloudflare"
+    ],
+    "Databases and Storage": [
+      "PostgreSQL", "MySQL", "SQLite", "MongoDB", "Microsoft SQL Server", "Oracle Database",
+      "MariaDB", "Cassandra", "DynamoDB", "Firestore", "Supabase", "Elasticsearch",
+      "OpenSearch", "Neo4j", "Redis Streams", "Apache Spark", "Apache Flink", "Snowflake",
+      "BigQuery", "Databricks", "Data Warehousing", "ETL", "Data Modeling", "Database Design"
+    ],
+    "Cybersecurity and Networking": [
+      "Cybersecurity", "Penetration Testing", "OWASP Top 10", "Application Security",
+      "Network Security", "Cryptography", "Threat Modeling", "Incident Response", "SIEM",
+      "Vulnerability Assessment", "Burp Suite", "Nmap", "Wireshark", "Metasploit", "Splunk",
+      "Identity and Access Management", "Zero Trust", "Firewalls", "TCP/IP", "DNS", "TLS",
+      "Digital Forensics", "Security Auditing"
+    ],
+    "Quality and Testing": [
+      "Software Testing", "Test Automation", "Unit Testing", "Integration Testing",
+      "End-to-End Testing", "Playwright", "Cypress", "Selenium", "Pytest", "Jest", "Mocha",
+      "JUnit", "Postman", "API Testing", "Load Testing", "Performance Testing", "Appium",
+      "Robot Framework", "Behavior-Driven Development", "Test-Driven Development", "Pact",
+      "Accessibility Testing"
+    ],
+    "Mobile and Embedded Systems": [
+      "Android Development", "iOS Development", "React Native", "Flutter", "Jetpack Compose",
+      "SwiftUI", "Ionic", "Expo", "Embedded Systems", "Internet of Things", "Arduino",
+      "Raspberry Pi", "ESP32", "FreeRTOS", "Firmware Development", "Digital Signal Processing",
+      "Verilog", "VHDL", "PCB Design", "Edge Computing"
+    ],
+    "Design and Product": [
+      "UI Design", "UX Design", "Figma", "Adobe XD", "Design Systems", "Wireframing",
+      "Prototyping", "User Research", "Usability Testing", "Information Architecture",
+      "Product Management", "Product Strategy", "Roadmapping", "Agile", "Scrum", "Kanban",
+      "Stakeholder Management", "Requirements Analysis", "A/B Testing", "Design Thinking",
+      "Interaction Design", "Visual Design", "Human-Computer Interaction", "Content Design",
+      "Technical Writing"
+    ],
+    "Developer Tools and Systems": [
+      "Git", "GitHub", "GitLab", "Bitbucket", "Visual Studio Code", "IntelliJ IDEA", "Vim",
+      "Jupyter", "Conda", "Poetry", "Pip", "npm", "pnpm", "Yarn", "Make", "CMake", "Gradle",
+      "Maven", "Operating Systems", "Data Structures", "Algorithms", "Object-Oriented Programming",
+      "Functional Programming", "System Design", "Networking"
+    ],
+    "Business and Analytics": [
+      "Microsoft Excel", "Google Sheets", "Tableau", "Power BI", "Looker", "Business Analysis",
+      "Business Intelligence", "Data Analysis", "Statistical Analysis", "SQL Analytics",
+      "Financial Modeling", "Market Research", "Competitive Analysis", "Growth Analytics",
+      "Customer Segmentation", "Google Analytics", "Mixpanel", "Amplitude", "KPI Reporting",
+      "Forecasting", "Operations Research", "Process Improvement", "Communication",
+      "Presentation Skills", "Project Management"
+    ]
+  },
+  "aliases": {
+    "py": "Python",
+    "python3": "Python",
+    "js": "JavaScript",
+    "javascript es6": "JavaScript",
+    "ts": "TypeScript",
+    "typescript js": "TypeScript",
+    "golang": "Go",
+    "c sharp": "C#",
+    "c-sharp": "C#",
+    "cplusplus": "C++",
+    "cpp": "C++",
+    "postgres": "PostgreSQL",
+    "postgresql db": "PostgreSQL",
+    "mongo": "MongoDB",
+    "amazon web services (aws)": "Amazon Web Services",
+    "aws": "Amazon Web Services",
+    "gcp": "Google Cloud Platform",
+    "google cloud": "Google Cloud Platform",
+    "azure": "Microsoft Azure",
+    "ml": "Machine Learning",
+    "ai": "Artificial Intelligence",
+    "nlp": "Natural Language Processing",
+    "llm": "Large Language Models",
+    "llms": "Large Language Models",
+    "rag": "Retrieval-Augmented Generation",
+    "sklearn": "scikit-learn",
+    "scikit learn": "scikit-learn",
+    "pytorch": "PyTorch",
+    "tf": "TensorFlow",
+    "genai": "Generative AI",
+    "generative artificial intelligence": "Generative AI",
+    "restful api": "REST API",
+    "rest apis": "REST API",
+    "api": "REST API",
+    "node": "Node.js",
+    "nodejs": "Node.js",
+    "react.js": "React",
+    "reactjs": "React",
+    "vue": "Vue.js",
+    "vuejs": "Vue.js",
+    "nextjs": "Next.js",
+    "tailwind": "Tailwind CSS",
+    "amazon s3": "Amazon S3",
+    "s3": "Amazon S3",
+    "ec2": "Amazon EC2",
+    "k8s": "Kubernetes",
+    "terraform iac": "Terraform",
+    "continuous integration": "CI/CD",
+    "continuous deployment": "CI/CD",
+    "continuous delivery": "CI/CD",
+    "test driven development": "Test-Driven Development",
+    "tdd": "Test-Driven Development",
+    "bdd": "Behavior-Driven Development",
+    "ui/ux": "UX Design",
+    "user experience": "UX Design",
+    "user interface": "UI Design",
+    "powerbi": "Power BI",
+    "ms excel": "Microsoft Excel",
+    "excel": "Microsoft Excel",
+    "linux/unix": "Linux",
+    "object oriented programming": "Object-Oriented Programming",
+    "oop": "Object-Oriented Programming",
+    "data structures and algorithms": "Data Structures",
+    "dsa": "Data Structures",
+    "ci cd": "CI/CD",
+    "ci-cd": "CI/CD",
+    "dotnet": "ASP.NET Core",
+    ".net": "ASP.NET Core",
+    "dotnet core": "ASP.NET Core",
+    "asp.net": "ASP.NET Core",
+    "elastic search": "Elasticsearch",
+    "powerpoint": "Presentation Skills",
+    "public speaking": "Presentation Skills"
+  }
+}
