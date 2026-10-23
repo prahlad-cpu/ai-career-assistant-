@@ -13,12 +13,13 @@ Requires Python 3.11 or newer.
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
-Copy-Item .env.example .env
 python -m flask --app wsgi run --debug
 ```
 
 Open <http://127.0.0.1:5000>. The first launch creates a local SQLite database
-in Flask's instance directory. The app can also be started with `python wsgi.py`.
+in Flask's instance directory. Local defaults work without environment
+variables; `.env.example` documents the settings to provide to the process when
+overriding them. The app can also be started with `python wsgi.py`.
 
 ## Tests
 
