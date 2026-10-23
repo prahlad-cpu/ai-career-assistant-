@@ -10,7 +10,7 @@ of this phase.
 Requires Python 3.11 or newer.
 
 ```powershell
-py -3.11 -m venv .venv
+python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
 Copy-Item .env.example .env
