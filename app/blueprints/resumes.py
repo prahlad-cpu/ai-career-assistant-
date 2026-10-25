@@ -7,7 +7,7 @@ import uuid
 import zipfile
 from pathlib import Path
 
-from flask import Blueprint, abort, current_app, flash, redirect, render_template, url_for
+from flask import Blueprint, abort, current_app, flash, redirect, render_template, request, url_for
 from flask_login import current_user, login_required
 from sqlalchemy import select, update
 from werkzeug.datastructures import FileStorage
@@ -15,7 +15,8 @@ from werkzeug.utils import secure_filename
 
 from app.extensions import db
 from app.forms import ResumeUploadForm
-from app.models import Resume
+from app.models import Internship, Resume
+from app.services.ats_scorer import score_resume
 from app.services.resume_parser import ResumeParseError, parse_resume_file
 
 resumes_bp = Blueprint("resumes", __name__, url_prefix="/resumes")
@@ -82,7 +83,27 @@ def index():
 def analysis(resume_id: int):
     """Show a structured analysis of a resume owned by the current user."""
     resume = _get_owned_resume(resume_id)
-    return render_template("resumes/analysis.html", resume=resume)
+    internships = db.session.scalars(
+        select(Internship).order_by(Internship.title.asc())
+    ).all()
+    selected_internship = db.session.get(Internship, request.args.get("internship_id", ""))
+    target_skills = (
+        selected_internship.required_skills + selected_internship.preferred_skills
+        if selected_internship
+        else None
+    )
+    ats_report = score_resume(
+        resume,
+        target_skills=target_skills,
+        target_title=selected_internship.title if selected_internship else None,
+    )
+    return render_template(
+        "resumes/analysis.html",
+        resume=resume,
+        ats_report=ats_report,
+        internships=internships,
+        selected_internship=selected_internship,
+    )
 
 
 @resumes_bp.post("/<int:resume_id>/activate")

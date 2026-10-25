@@ -20,6 +20,71 @@
     {% endif %}
   </div>
 
+  <section class="mt-7 rounded-2xl border border-indigo-100 bg-white p-6 shadow-sm" aria-labelledby="ats-heading">
+    <div class="flex flex-col gap-6 lg:flex-row lg:items-center">
+      <div class="flex items-center gap-5">
+        <div class="relative h-32 w-32 shrink-0" role="img" aria-label="ATS compatibility score: {{ ats_report.score }} out of 100">
+          <svg class="h-full w-full -rotate-90" viewBox="0 0 100 100" aria-hidden="true">
+            <circle cx="50" cy="50" r="42" fill="none" stroke="#e2e8f0" stroke-width="9"></circle>
+            <circle cx="50" cy="50" r="42" fill="none" stroke="#4f46e5" stroke-width="9" stroke-linecap="round" stroke-dasharray="{{ (ats_report.score / 100 * 264)|round }} 264"></circle>
+          </svg>
+          <span class="absolute inset-0 flex items-center justify-center text-3xl font-bold text-slate-900">{{ ats_report.score }}</span>
+        </div>
+        <div>
+          <p class="text-sm font-semibold uppercase tracking-wide text-indigo-600">Resume check</p>
+          <h2 class="mt-1 text-2xl font-bold" id="ats-heading">ATS compatibility</h2>
+          <p class="mt-2 max-w-xl text-sm leading-6 text-slate-600">
+            {% if ats_report.target_title %}Keyword coverage is checked against {{ ats_report.target_title }}.{% else %}A transparent rule-based review of contact details, sections, skills, impact, length, and text-visible formatting.{% endif %}
+          </p>
+        </div>
+      </div>
+      <form class="grid flex-1 gap-3 sm:grid-cols-[1fr_auto]" method="get">
+        <div>
+          <label class="mb-1 block text-sm font-semibold" for="internship_id">Optional target internship</label>
+          <select class="w-full rounded-lg border border-slate-300 bg-white px-3 py-2" id="internship_id" name="internship_id">
+            <option value="">General ATS check</option>
+            {% for internship in internships %}
+              <option value="{{ internship.id }}" {% if selected_internship and selected_internship.id == internship.id %}selected{% endif %}>{{ internship.title }} · {{ internship.company }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <button class="self-end rounded-lg bg-indigo-600 px-4 py-2 font-semibold text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2" type="submit">Update check</button>
+      </form>
+    </div>
+
+    <div class="mt-6 grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
+      <div>
+        <h3 class="font-semibold">ATS checklist</h3>
+        <ul class="mt-3 space-y-3">
+          {% for check in ats_report.checks %}
+            <li class="rounded-xl border border-slate-100 p-4">
+              <div class="flex items-center justify-between gap-3">
+                <h4 class="font-medium">{{ check.label }}</h4>
+                <span class="shrink-0 text-sm font-bold {% if check.score >= 80 %}text-emerald-700{% elif check.score >= 50 %}text-amber-700{% else %}text-rose-700{% endif %}">{{ check.score }}%</span>
+              </div>
+              <p class="mt-1 text-sm leading-5 text-slate-600">{{ check.detail }}</p>
+              <div class="mt-2 h-2 overflow-hidden rounded-full bg-slate-100" role="progressbar" aria-label="{{ check.label }} score" aria-valuemin="0" aria-valuemax="100" aria-valuenow="{{ check.score }}">
+                <div class="h-full rounded-full {% if check.score >= 80 %}bg-emerald-500{% elif check.score >= 50 %}bg-amber-500{% else %}bg-rose-500{% endif %}" style="width: {{ check.score }}%"></div>
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <aside class="rounded-xl bg-indigo-50 p-5">
+        <h3 class="font-semibold text-indigo-950">Top 5 fixes</h3>
+        <p class="mt-1 text-sm text-indigo-900">Prioritized opportunities to improve this score. Add only accurate information.</p>
+        {% if ats_report.top_fixes %}
+          <ol class="mt-4 space-y-3">
+            {% for fix in ats_report.top_fixes %}<li class="flex gap-3 text-sm leading-5 text-slate-800"><span class="font-bold text-indigo-700">{{ loop.index }}.</span><span>{{ fix }}</span></li>{% endfor %}
+          </ol>
+        {% else %}
+          <p class="mt-4 text-sm font-medium text-emerald-800">No high-priority fixes identified by these checks.</p>
+        {% endif %}
+      </aside>
+    </div>
+    <p class="mt-4 text-xs leading-5 text-slate-500">This is a heuristic checklist, not a guarantee of passing any employer's ATS. Layout checks use extracted text only; the original upload is not retained for visual inspection.</p>
+  </section>
+
   <div class="mt-7 grid gap-5 md:grid-cols-2">
     <article class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
       <h2 class="text-lg font-semibold">Contact</h2>

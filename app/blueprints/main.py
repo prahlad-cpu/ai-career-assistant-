@@ -6,6 +6,7 @@ from sqlalchemy import select
 
 from app.extensions import db
 from app.models import Resume
+from app.services.ats_scorer import score_resume
 
 main_bp = Blueprint("main", __name__)
 
@@ -28,4 +29,9 @@ def dashboard():
             Resume.is_active.is_(True),
         )
     )
-    return render_template("main/dashboard.html", active_resume=active_resume)
+    ats_report = score_resume(active_resume) if active_resume else None
+    return render_template(
+        "main/dashboard.html",
+        active_resume=active_resume,
+        ats_report=ats_report,
+    )

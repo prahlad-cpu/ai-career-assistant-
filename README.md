@@ -112,6 +112,22 @@ by the local Python runtime, the same CLI and web flow use a deterministic,
 CPU-only feature-hash fallback; for the project-specified Python 3.11 runtime,
 FastEmbed is installed from the pinned requirements.
 
+## ATS and skill-gap analysis
+
+Resume analysis includes a rule-based 0–100 ATS compatibility score, a weighted
+checklist, and up to five prioritized fixes. Select an internship to include
+its skills in the keyword coverage check. ATS formatting checks use extracted
+text only; the original upload is deleted after parsing, so columns and images
+cannot be inspected. This score is a transparent heuristic, not a guarantee
+from any employer's ATS.
+
+Open a recommendation's skill-gap view to see exact, partial, and missing
+skills, a weighted readiness gauge, and a priority-ordered learning plan.
+Partial matches use taxonomy aliases and conservative similarity heuristics;
+confirm them against your actual experience. The pasted-JD analyzer extracts
+known taxonomy skills and keeps the submitted text only for the current
+response—it is not stored in the database.
+
 ## Project status
 
 The implementation follows the phases in [agent_build_prompt.md](./agent_build_prompt.md).

@@ -54,3 +54,18 @@
   startup no longer creates tables implicitly. The first baseline skips tables
   already present in pre-migration local databases, and the follow-up revision
   adds `internships.embedding_fingerprint`.
+
+# Phase 4 decisions
+
+- ATS scoring is a deterministic, weighted checklist computed from the parsed
+  resume profile and normalized text. Target skills from an optional selected
+  internship contribute to the skills/keyword check. The UI describes the
+  result as a heuristic and explicitly notes that original document layout is
+  unavailable after private upload files are deleted.
+- Skill-gap analysis uses the existing curated taxonomy for exact/alias matches,
+  with conservative name/category overlap for partial matches. Readiness counts
+  partial skills as half credit and weights required skills twice as much as
+  preferred skills. Learning links are search queries rather than guessed
+  course or documentation URLs.
+- Pasted job descriptions are bounded to 12,000 characters, CSRF protected, and
+  analyzed in the request without persisting the text or adding database models.

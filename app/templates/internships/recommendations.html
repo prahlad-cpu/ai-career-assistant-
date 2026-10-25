@@ -16,6 +16,7 @@
       <option value="tfidf" {% if scoring == "tfidf" %}selected{% endif %}>TF-IDF keyword baseline</option>
     </select>
   </div>
+  <a class="mt-4 inline-flex w-fit items-center rounded-lg border border-indigo-200 bg-indigo-50 px-4 py-2 text-sm font-semibold text-indigo-800 hover:bg-indigo-100" href="{{ url_for('internships.pasted_skill_gap') }}">Analyze a pasted job description</a>
 
   {% if not has_resume %}
     <div class="mt-8 rounded-2xl border border-indigo-200 bg-indigo-50 p-6">
@@ -130,6 +131,7 @@
               <span>{{ match.internship.duration }}</span>
               <span>Posted {{ match.internship.posted_date.strftime("%b %d") }}</span>
             </div>
+            <a class="mt-4 inline-block text-sm font-semibold text-indigo-700 hover:text-indigo-900" href="{{ url_for('internships.skill_gap', internship_id=match.internship.id) }}">View skill gap and learning plan <span aria-hidden="true">→</span></a>
           </article>
         {% endfor %}
       </div>
