@@ -26,3 +26,27 @@
 - SQLAlchemy is pinned at 2.1.5: the installed development Python is 3.15, and
   the original 2.0.36 pin failed during model initialization there. The newer
   pin retains support for the specified Python 3.11 minimum.
+
+# Phase 3 decisions
+
+- The seed dataset is original, generated project data with 91 records across
+  13 internship domains. The loader canonicalizes the supplied skill lists and
+  unions taxonomy skills it finds in each listing description.
+- The seed CLI upserts rows by stable ID, removes stale seed rows, and
+  precomputes BGE embeddings. `--without-embeddings` is available for offline
+  database setup; the recommendation service fills missing vectors on demand.
+- FastEmbed is pinned for supported runtimes, with a Python 3.15 environment
+  marker because ONNX Runtime currently has no compatible Windows wheel in the
+  available interpreter. A deterministic hashed text-vector service keeps
+  seeding and recommendations functional when FastEmbed or model downloads are
+  unavailable.
+- Matching uses separate resume skill, project, experience, and summary
+  chunks, percentile-calibrated cosine similarity, taxonomy skill coverage,
+  education/experience fit, and saved preferences. The exact blend is kept in
+  `config/matching.yaml`. A dependency-light TF-IDF cosine baseline is available
+  from the recommendations page for comparison.
+- Matching weights are read from the small scalar-only YAML file with a
+  focused parser rather than introducing a YAML runtime dependency for the app.
+- Recommendation results are cached by resume/listing pair with content
+  fingerprints, so profile, listing, and embedding-backend changes invalidate
+  stale results without storing resume text in logs.

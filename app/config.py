@@ -22,6 +22,8 @@ class Config:
     MAX_RESUME_BYTES = MAX_RESUME_BYTES
     MAX_CONTENT_LENGTH = MAX_RESUME_BYTES + 64 * 1024
     UPLOAD_FOLDER: str | None = None
+    EMBEDDING_MODEL = os.environ.get("EMBEDDING_MODEL", "BAAI/bge-small-en-v1.5")
+    EMBEDDING_CACHE_DIR = os.environ.get("EMBEDDING_CACHE_DIR")
 
 
 class DevelopmentConfig(Config):

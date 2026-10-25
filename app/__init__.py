@@ -11,6 +11,8 @@ from werkzeug.exceptions import RequestEntityTooLarge
 from app.blueprints.auth import auth_bp
 from app.blueprints.main import main_bp
 from app.blueprints.resumes import resumes_bp
+from app.blueprints.internships import internships_bp
+from app.commands import register_commands
 from app.config import CONFIGS, Config
 from app.extensions import csrf, db, login_manager, migrate
 from app.models import User
@@ -42,6 +44,8 @@ def create_app(config_object: type[Config] | str | None = None) -> Flask:
     app.register_blueprint(auth_bp)
     app.register_blueprint(main_bp)
     app.register_blueprint(resumes_bp)
+    app.register_blueprint(internships_bp)
+    register_commands(app)
 
     @login_manager.user_loader
     def load_user(user_id: str) -> User | None:

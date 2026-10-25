@@ -3,6 +3,8 @@ Flask-Login==0.6.3
 Flask-Migrate==4.0.7
 Flask-SQLAlchemy==3.1.1
 Flask-WTF==1.2.1
+fastembed==0.7.3; python_version < "3.15"
+numpy==2.5.4
 python-dotenv==1.1.1
 pdfminer.six==20250506
 pdfplumber==0.11.7

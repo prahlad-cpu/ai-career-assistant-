@@ -1,0 +1,2368 @@
+[
+  {
+    "id": "seed-001",
+    "title": "React Developer",
+    "company": "Asterbyte Labs",
+    "location": "Bengaluru",
+    "mode": "remote",
+    "stipend": 12000,
+    "duration": "3 months",
+    "domain": "Web Development",
+    "description": "Build responsive product experiences, connect browser interfaces to documented APIs, and improve keyboard access and page performance. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on react developer responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "React",
+      "JavaScript",
+      "TypeScript",
+      "HTML",
+      "CSS"
+    ],
+    "preferred_skills": [
+      "Next.js",
+      "Figma",
+      "Playwright"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-24",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-002",
+    "title": "Frontend Developer",
+    "company": "Northstar Digital",
+    "location": "Remote",
+    "mode": "hybrid",
+    "stipend": 14300,
+    "duration": "4 months",
+    "domain": "Web Development",
+    "description": "Build responsive product experiences, connect browser interfaces to documented APIs, and improve keyboard access and page performance. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on frontend developer responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "JavaScript",
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "Tailwind CSS"
+    ],
+    "preferred_skills": [
+      "Figma",
+      "Playwright",
+      "Vite"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-21",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-003",
+    "title": "Web Application Developer",
+    "company": "Kitebridge Systems",
+    "location": "Hyderabad",
+    "mode": "onsite",
+    "stipend": 16600,
+    "duration": "6 months",
+    "domain": "Web Development",
+    "description": "Build responsive product experiences, connect browser interfaces to documented APIs, and improve keyboard access and page performance. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on web application developer responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "Accessibility"
+    ],
+    "preferred_skills": [
+      "Playwright",
+      "Vite",
+      "Web Performance"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-18",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-004",
+    "title": "UI Engineer",
+    "company": "Blue Canopy Tech",
+    "location": "Pune",
+    "mode": "remote",
+    "stipend": 18900,
+    "duration": "3 months",
+    "domain": "Web Development",
+    "description": "Build responsive product experiences, connect browser interfaces to documented APIs, and improve keyboard access and page performance. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on ui engineer responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "Accessibility",
+      "Responsive Design"
+    ],
+    "preferred_skills": [
+      "Vite",
+      "Web Performance",
+      "Next.js"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-15",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-005",
+    "title": "Accessibility Developer",
+    "company": "Cedarwave Analytics",
+    "location": "Remote",
+    "mode": "hybrid",
+    "stipend": 21200,
+    "duration": "4 months",
+    "domain": "Web Development",
+    "description": "Build responsive product experiences, connect browser interfaces to documented APIs, and improve keyboard access and page performance. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on accessibility developer responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "CSS",
+      "Tailwind CSS",
+      "Accessibility",
+      "Responsive Design",
+      "Git"
+    ],
+    "preferred_skills": [
+      "Web Performance",
+      "Next.js",
+      "Figma"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-12",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-006",
+    "title": "Frontend Performance Intern",
+    "company": "Mosaic Harbor",
+    "location": "Chennai",
+    "mode": "onsite",
+    "stipend": 23500,
+    "duration": "6 months",
+    "domain": "Web Development",
+    "description": "Build responsive product experiences, connect browser interfaces to documented APIs, and improve keyboard access and page performance. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on frontend performance intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Tailwind CSS",
+      "Accessibility",
+      "Responsive Design",
+      "Git",
+      "REST API"
+    ],
+    "preferred_skills": [
+      "Next.js",
+      "Figma",
+      "Playwright"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-09",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-007",
+    "title": "Design Systems Intern",
+    "company": "Juniper Stack",
+    "location": "Delhi NCR",
+    "mode": "remote",
+    "stipend": 25800,
+    "duration": "3 months",
+    "domain": "Web Development",
+    "description": "Build responsive product experiences, connect browser interfaces to documented APIs, and improve keyboard access and page performance. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on design systems intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Accessibility",
+      "Responsive Design",
+      "Git",
+      "REST API",
+      "React"
+    ],
+    "preferred_skills": [
+      "Figma",
+      "Playwright",
+      "Vite"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-06",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-008",
+    "title": "Backend Engineer",
+    "company": "Northstar Digital",
+    "location": "Remote",
+    "mode": "hybrid",
+    "stipend": 13700,
+    "duration": "4 months",
+    "domain": "Backend Development",
+    "description": "Implement reliable application services, validate request and response contracts, and improve data access and automated test coverage. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on backend engineer responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Python",
+      "Flask",
+      "FastAPI",
+      "REST API",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "Kubernetes",
+      "OpenAPI",
+      "Celery"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-17",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-009",
+    "title": "Python API Developer",
+    "company": "Kitebridge Systems",
+    "location": "Hyderabad",
+    "mode": "onsite",
+    "stipend": 16000,
+    "duration": "6 months",
+    "domain": "Backend Development",
+    "description": "Implement reliable application services, validate request and response contracts, and improve data access and automated test coverage. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on python api developer responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Flask",
+      "FastAPI",
+      "REST API",
+      "PostgreSQL",
+      "SQL"
+    ],
+    "preferred_skills": [
+      "OpenAPI",
+      "Celery",
+      "GitHub Actions"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-14",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-010",
+    "title": "Platform Services Intern",
+    "company": "Blue Canopy Tech",
+    "location": "Pune",
+    "mode": "remote",
+    "stipend": 18300,
+    "duration": "3 months",
+    "domain": "Backend Development",
+    "description": "Implement reliable application services, validate request and response contracts, and improve data access and automated test coverage. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on platform services intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "FastAPI",
+      "REST API",
+      "PostgreSQL",
+      "SQL",
+      "Git"
+    ],
+    "preferred_skills": [
+      "Celery",
+      "GitHub Actions",
+      "System Design"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-11",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-011",
+    "title": "Database Application Intern",
+    "company": "Cedarwave Analytics",
+    "location": "Remote",
+    "mode": "hybrid",
+    "stipend": 20600,
+    "duration": "4 months",
+    "domain": "Backend Development",
+    "description": "Implement reliable application services, validate request and response contracts, and improve data access and automated test coverage. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on database application intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "REST API",
+      "PostgreSQL",
+      "SQL",
+      "Git",
+      "Docker"
+    ],
+    "preferred_skills": [
+      "GitHub Actions",
+      "System Design",
+      "Kubernetes"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-08",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-012",
+    "title": "Integration Engineer",
+    "company": "Mosaic Harbor",
+    "location": "Chennai",
+    "mode": "onsite",
+    "stipend": 22900,
+    "duration": "6 months",
+    "domain": "Backend Development",
+    "description": "Implement reliable application services, validate request and response contracts, and improve data access and automated test coverage. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on integration engineer responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "PostgreSQL",
+      "SQL",
+      "Git",
+      "Docker",
+      "Redis"
+    ],
+    "preferred_skills": [
+      "System Design",
+      "Kubernetes",
+      "OpenAPI"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-05",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-013",
+    "title": "Service Reliability Intern",
+    "company": "Juniper Stack",
+    "location": "Delhi NCR",
+    "mode": "remote",
+    "stipend": 25200,
+    "duration": "3 months",
+    "domain": "Backend Development",
+    "description": "Implement reliable application services, validate request and response contracts, and improve data access and automated test coverage. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on service reliability intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "SQL",
+      "Git",
+      "Docker",
+      "Redis",
+      "Pytest"
+    ],
+    "preferred_skills": [
+      "Kubernetes",
+      "OpenAPI",
+      "Celery"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-02",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-014",
+    "title": "Java Backend Intern",
+    "company": "Asterbyte Labs",
+    "location": "Bengaluru",
+    "mode": "hybrid",
+    "stipend": 27500,
+    "duration": "4 months",
+    "domain": "Backend Development",
+    "description": "Implement reliable application services, validate request and response contracts, and improve data access and automated test coverage. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on java backend intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Git",
+      "Docker",
+      "Redis",
+      "Pytest",
+      "Python"
+    ],
+    "preferred_skills": [
+      "OpenAPI",
+      "Celery",
+      "GitHub Actions"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-09-29",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-015",
+    "title": "Data Science Intern",
+    "company": "Kitebridge Systems",
+    "location": "Hyderabad",
+    "mode": "onsite",
+    "stipend": 15400,
+    "duration": "6 months",
+    "domain": "Data Science",
+    "description": "Explore well-defined product datasets, document assumptions, validate statistical findings, and communicate useful patterns with clear visualizations. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on data science intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "SQL",
+      "scikit-learn"
+    ],
+    "preferred_skills": [
+      "Tableau",
+      "Power BI",
+      "Feature Engineering"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-10",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-016",
+    "title": "Product Data Analyst",
+    "company": "Blue Canopy Tech",
+    "location": "Pune",
+    "mode": "remote",
+    "stipend": 17700,
+    "duration": "3 months",
+    "domain": "Data Science",
+    "description": "Explore well-defined product datasets, document assumptions, validate statistical findings, and communicate useful patterns with clear visualizations. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on product data analyst responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Pandas",
+      "NumPy",
+      "SQL",
+      "scikit-learn",
+      "Statistical Analysis"
+    ],
+    "preferred_skills": [
+      "Power BI",
+      "Feature Engineering",
+      "Forecasting"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-07",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-017",
+    "title": "Applied Statistics Intern",
+    "company": "Cedarwave Analytics",
+    "location": "Remote",
+    "mode": "hybrid",
+    "stipend": 20000,
+    "duration": "4 months",
+    "domain": "Data Science",
+    "description": "Explore well-defined product datasets, document assumptions, validate statistical findings, and communicate useful patterns with clear visualizations. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on applied statistics intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "NumPy",
+      "SQL",
+      "scikit-learn",
+      "Statistical Analysis",
+      "Data Analysis"
+    ],
+    "preferred_skills": [
+      "Feature Engineering",
+      "Forecasting",
+      "BigQuery"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-04",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-018",
+    "title": "Data Visualization Intern",
+    "company": "Mosaic Harbor",
+    "location": "Chennai",
+    "mode": "onsite",
+    "stipend": 22300,
+    "duration": "6 months",
+    "domain": "Data Science",
+    "description": "Explore well-defined product datasets, document assumptions, validate statistical findings, and communicate useful patterns with clear visualizations. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on data visualization intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "SQL",
+      "scikit-learn",
+      "Statistical Analysis",
+      "Data Analysis",
+      "Data Visualization"
+    ],
+    "preferred_skills": [
+      "Forecasting",
+      "BigQuery",
+      "Tableau"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-01",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-019",
+    "title": "Customer Insights Intern",
+    "company": "Juniper Stack",
+    "location": "Delhi NCR",
+    "mode": "remote",
+    "stipend": 24600,
+    "duration": "3 months",
+    "domain": "Data Science",
+    "description": "Explore well-defined product datasets, document assumptions, validate statistical findings, and communicate useful patterns with clear visualizations. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on customer insights intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "scikit-learn",
+      "Statistical Analysis",
+      "Data Analysis",
+      "Data Visualization",
+      "Matplotlib"
+    ],
+    "preferred_skills": [
+      "BigQuery",
+      "Tableau",
+      "Power BI"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-09-28",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-020",
+    "title": "Analytics Research Intern",
+    "company": "Asterbyte Labs",
+    "location": "Bengaluru",
+    "mode": "hybrid",
+    "stipend": 26900,
+    "duration": "4 months",
+    "domain": "Data Science",
+    "description": "Explore well-defined product datasets, document assumptions, validate statistical findings, and communicate useful patterns with clear visualizations. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on analytics research intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Statistical Analysis",
+      "Data Analysis",
+      "Data Visualization",
+      "Matplotlib",
+      "Jupyter"
+    ],
+    "preferred_skills": [
+      "Tableau",
+      "Power BI",
+      "Feature Engineering"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-09-25",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-021",
+    "title": "Decision Science Intern",
+    "company": "Northstar Digital",
+    "location": "Remote",
+    "mode": "onsite",
+    "stipend": 29200,
+    "duration": "6 months",
+    "domain": "Data Science",
+    "description": "Explore well-defined product datasets, document assumptions, validate statistical findings, and communicate useful patterns with clear visualizations. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on decision science intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Data Analysis",
+      "Data Visualization",
+      "Matplotlib",
+      "Jupyter",
+      "Python"
+    ],
+    "preferred_skills": [
+      "Power BI",
+      "Feature Engineering",
+      "Forecasting"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-22",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-022",
+    "title": "Machine Learning Intern",
+    "company": "Blue Canopy Tech",
+    "location": "Pune",
+    "mode": "remote",
+    "stipend": 17100,
+    "duration": "3 months",
+    "domain": "Machine Learning",
+    "description": "Prepare reproducible training data, establish meaningful evaluation baselines, and help deliver maintainable machine-learning experiments. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on machine learning intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Python",
+      "Machine Learning",
+      "scikit-learn",
+      "NumPy",
+      "Pandas"
+    ],
+    "preferred_skills": [
+      "TensorFlow",
+      "ONNX",
+      "MLOps"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-03",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-023",
+    "title": "Applied ML Engineer Intern",
+    "company": "Cedarwave Analytics",
+    "location": "Remote",
+    "mode": "hybrid",
+    "stipend": 19400,
+    "duration": "4 months",
+    "domain": "Machine Learning",
+    "description": "Prepare reproducible training data, establish meaningful evaluation baselines, and help deliver maintainable machine-learning experiments. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on applied ml engineer intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Machine Learning",
+      "scikit-learn",
+      "NumPy",
+      "Pandas",
+      "PyTorch"
+    ],
+    "preferred_skills": [
+      "ONNX",
+      "MLOps",
+      "Docker"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-09-30",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-024",
+    "title": "Computer Vision Intern",
+    "company": "Mosaic Harbor",
+    "location": "Chennai",
+    "mode": "onsite",
+    "stipend": 21700,
+    "duration": "6 months",
+    "domain": "Machine Learning",
+    "description": "Prepare reproducible training data, establish meaningful evaluation baselines, and help deliver maintainable machine-learning experiments. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on computer vision intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "scikit-learn",
+      "NumPy",
+      "Pandas",
+      "PyTorch",
+      "Model Evaluation"
+    ],
+    "preferred_skills": [
+      "MLOps",
+      "Docker",
+      "Computer Vision"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-09-27",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-025",
+    "title": "Recommendation Systems Intern",
+    "company": "Juniper Stack",
+    "location": "Delhi NCR",
+    "mode": "remote",
+    "stipend": 24000,
+    "duration": "3 months",
+    "domain": "Machine Learning",
+    "description": "Prepare reproducible training data, establish meaningful evaluation baselines, and help deliver maintainable machine-learning experiments. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on recommendation systems intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "NumPy",
+      "Pandas",
+      "PyTorch",
+      "Model Evaluation",
+      "Feature Engineering"
+    ],
+    "preferred_skills": [
+      "Docker",
+      "Computer Vision",
+      "TensorFlow"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-24",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-026",
+    "title": "Model Evaluation Intern",
+    "company": "Asterbyte Labs",
+    "location": "Bengaluru",
+    "mode": "hybrid",
+    "stipend": 26300,
+    "duration": "4 months",
+    "domain": "Machine Learning",
+    "description": "Prepare reproducible training data, establish meaningful evaluation baselines, and help deliver maintainable machine-learning experiments. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on model evaluation intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Pandas",
+      "PyTorch",
+      "Model Evaluation",
+      "Feature Engineering",
+      "Git"
+    ],
+    "preferred_skills": [
+      "Computer Vision",
+      "TensorFlow",
+      "ONNX"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-21",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-027",
+    "title": "MLOps Intern",
+    "company": "Northstar Digital",
+    "location": "Remote",
+    "mode": "onsite",
+    "stipend": 28600,
+    "duration": "6 months",
+    "domain": "Machine Learning",
+    "description": "Prepare reproducible training data, establish meaningful evaluation baselines, and help deliver maintainable machine-learning experiments. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on mlops intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "PyTorch",
+      "Model Evaluation",
+      "Feature Engineering",
+      "Git",
+      "Jupyter"
+    ],
+    "preferred_skills": [
+      "TensorFlow",
+      "ONNX",
+      "MLOps"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-18",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-028",
+    "title": "AI Research Intern",
+    "company": "Kitebridge Systems",
+    "location": "Hyderabad",
+    "mode": "remote",
+    "stipend": 12900,
+    "duration": "3 months",
+    "domain": "Machine Learning",
+    "description": "Prepare reproducible training data, establish meaningful evaluation baselines, and help deliver maintainable machine-learning experiments. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on ai research intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Model Evaluation",
+      "Feature Engineering",
+      "Git",
+      "Jupyter",
+      "Python"
+    ],
+    "preferred_skills": [
+      "ONNX",
+      "MLOps",
+      "Docker"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-15",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-029",
+    "title": "NLP Intern",
+    "company": "Cedarwave Analytics",
+    "location": "Remote",
+    "mode": "hybrid",
+    "stipend": 18800,
+    "duration": "4 months",
+    "domain": "Natural Language Processing",
+    "description": "Build language-processing prototypes, evaluate retrieval and classification quality, and document limitations using representative text data. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on nlp intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Python",
+      "Natural Language Processing",
+      "Machine Learning",
+      "Transformers",
+      "Hugging Face"
+    ],
+    "preferred_skills": [
+      "Large Language Models",
+      "Retrieval-Augmented Generation",
+      "Vector Search"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-09-26",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-030",
+    "title": "LLM Applications Intern",
+    "company": "Mosaic Harbor",
+    "location": "Chennai",
+    "mode": "onsite",
+    "stipend": 21100,
+    "duration": "6 months",
+    "domain": "Natural Language Processing",
+    "description": "Build language-processing prototypes, evaluate retrieval and classification quality, and document limitations using representative text data. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on llm applications intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Natural Language Processing",
+      "Machine Learning",
+      "Transformers",
+      "Hugging Face",
+      "scikit-learn"
+    ],
+    "preferred_skills": [
+      "Retrieval-Augmented Generation",
+      "Vector Search",
+      "NLTK"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-23",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-031",
+    "title": "Search Relevance Intern",
+    "company": "Juniper Stack",
+    "location": "Delhi NCR",
+    "mode": "remote",
+    "stipend": 23400,
+    "duration": "3 months",
+    "domain": "Natural Language Processing",
+    "description": "Build language-processing prototypes, evaluate retrieval and classification quality, and document limitations using representative text data. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on search relevance intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Machine Learning",
+      "Transformers",
+      "Hugging Face",
+      "scikit-learn",
+      "PyTorch"
+    ],
+    "preferred_skills": [
+      "Vector Search",
+      "NLTK",
+      "FastAPI"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-20",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-032",
+    "title": "Text Analytics Intern",
+    "company": "Asterbyte Labs",
+    "location": "Bengaluru",
+    "mode": "hybrid",
+    "stipend": 25700,
+    "duration": "4 months",
+    "domain": "Natural Language Processing",
+    "description": "Build language-processing prototypes, evaluate retrieval and classification quality, and document limitations using representative text data. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on text analytics intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Transformers",
+      "Hugging Face",
+      "scikit-learn",
+      "PyTorch",
+      "REST API"
+    ],
+    "preferred_skills": [
+      "NLTK",
+      "FastAPI",
+      "Large Language Models"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-17",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-033",
+    "title": "Retrieval Systems Intern",
+    "company": "Northstar Digital",
+    "location": "Remote",
+    "mode": "onsite",
+    "stipend": 28000,
+    "duration": "6 months",
+    "domain": "Natural Language Processing",
+    "description": "Build language-processing prototypes, evaluate retrieval and classification quality, and document limitations using representative text data. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on retrieval systems intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Hugging Face",
+      "scikit-learn",
+      "PyTorch",
+      "REST API",
+      "SQL"
+    ],
+    "preferred_skills": [
+      "FastAPI",
+      "Large Language Models",
+      "Retrieval-Augmented Generation"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-14",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-034",
+    "title": "Conversational AI Intern",
+    "company": "Kitebridge Systems",
+    "location": "Hyderabad",
+    "mode": "remote",
+    "stipend": 12300,
+    "duration": "3 months",
+    "domain": "Natural Language Processing",
+    "description": "Build language-processing prototypes, evaluate retrieval and classification quality, and document limitations using representative text data. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on conversational ai intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "scikit-learn",
+      "PyTorch",
+      "REST API",
+      "SQL",
+      "Git"
+    ],
+    "preferred_skills": [
+      "Large Language Models",
+      "Retrieval-Augmented Generation",
+      "Vector Search"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-11",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-035",
+    "title": "Document Intelligence Intern",
+    "company": "Blue Canopy Tech",
+    "location": "Pune",
+    "mode": "hybrid",
+    "stipend": 14600,
+    "duration": "4 months",
+    "domain": "Natural Language Processing",
+    "description": "Build language-processing prototypes, evaluate retrieval and classification quality, and document limitations using representative text data. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on document intelligence intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "PyTorch",
+      "REST API",
+      "SQL",
+      "Git",
+      "Python"
+    ],
+    "preferred_skills": [
+      "Retrieval-Augmented Generation",
+      "Vector Search",
+      "NLTK"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-08",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-036",
+    "title": "Cloud Engineering Intern",
+    "company": "Mosaic Harbor",
+    "location": "Chennai",
+    "mode": "onsite",
+    "stipend": 20500,
+    "duration": "6 months",
+    "domain": "Cloud and DevOps",
+    "description": "Automate repeatable environment setup, improve delivery pipelines, and make service health easier to inspect and troubleshoot. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on cloud engineering intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Linux",
+      "Docker",
+      "Git",
+      "CI/CD",
+      "Amazon Web Services"
+    ],
+    "preferred_skills": [
+      "Prometheus",
+      "Grafana",
+      "Ansible"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-19",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-037",
+    "title": "DevOps Automation Intern",
+    "company": "Juniper Stack",
+    "location": "Delhi NCR",
+    "mode": "remote",
+    "stipend": 22800,
+    "duration": "3 months",
+    "domain": "Cloud and DevOps",
+    "description": "Automate repeatable environment setup, improve delivery pipelines, and make service health easier to inspect and troubleshoot. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on devops automation intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Docker",
+      "Git",
+      "CI/CD",
+      "Amazon Web Services",
+      "Python"
+    ],
+    "preferred_skills": [
+      "Grafana",
+      "Ansible",
+      "Helm"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-16",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-038",
+    "title": "Cloud Platform Intern",
+    "company": "Asterbyte Labs",
+    "location": "Bengaluru",
+    "mode": "hybrid",
+    "stipend": 25100,
+    "duration": "4 months",
+    "domain": "Cloud and DevOps",
+    "description": "Automate repeatable environment setup, improve delivery pipelines, and make service health easier to inspect and troubleshoot. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on cloud platform intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Git",
+      "CI/CD",
+      "Amazon Web Services",
+      "Python",
+      "Terraform"
+    ],
+    "preferred_skills": [
+      "Ansible",
+      "Helm",
+      "Infrastructure as Code"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-13",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-039",
+    "title": "Infrastructure Tools Intern",
+    "company": "Northstar Digital",
+    "location": "Remote",
+    "mode": "onsite",
+    "stipend": 27400,
+    "duration": "6 months",
+    "domain": "Cloud and DevOps",
+    "description": "Automate repeatable environment setup, improve delivery pipelines, and make service health easier to inspect and troubleshoot. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on infrastructure tools intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "CI/CD",
+      "Amazon Web Services",
+      "Python",
+      "Terraform",
+      "GitHub Actions"
+    ],
+    "preferred_skills": [
+      "Helm",
+      "Infrastructure as Code",
+      "Prometheus"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-10",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-040",
+    "title": "Site Reliability Intern",
+    "company": "Kitebridge Systems",
+    "location": "Hyderabad",
+    "mode": "remote",
+    "stipend": 29700,
+    "duration": "3 months",
+    "domain": "Cloud and DevOps",
+    "description": "Automate repeatable environment setup, improve delivery pipelines, and make service health easier to inspect and troubleshoot. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on site reliability intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Amazon Web Services",
+      "Python",
+      "Terraform",
+      "GitHub Actions",
+      "Kubernetes"
+    ],
+    "preferred_skills": [
+      "Infrastructure as Code",
+      "Prometheus",
+      "Grafana"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-07",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-041",
+    "title": "Container Platform Intern",
+    "company": "Blue Canopy Tech",
+    "location": "Pune",
+    "mode": "hybrid",
+    "stipend": 14000,
+    "duration": "4 months",
+    "domain": "Cloud and DevOps",
+    "description": "Automate repeatable environment setup, improve delivery pipelines, and make service health easier to inspect and troubleshoot. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on container platform intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Python",
+      "Terraform",
+      "GitHub Actions",
+      "Kubernetes",
+      "Bash"
+    ],
+    "preferred_skills": [
+      "Prometheus",
+      "Grafana",
+      "Ansible"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-04",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-042",
+    "title": "Cloud Observability Intern",
+    "company": "Cedarwave Analytics",
+    "location": "Remote",
+    "mode": "onsite",
+    "stipend": 16300,
+    "duration": "6 months",
+    "domain": "Cloud and DevOps",
+    "description": "Automate repeatable environment setup, improve delivery pipelines, and make service health easier to inspect and troubleshoot. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on cloud observability intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Terraform",
+      "GitHub Actions",
+      "Kubernetes",
+      "Bash",
+      "Linux"
+    ],
+    "preferred_skills": [
+      "Grafana",
+      "Ansible",
+      "Helm"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-01",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-043",
+    "title": "Application Security Intern",
+    "company": "Juniper Stack",
+    "location": "Delhi NCR",
+    "mode": "remote",
+    "stipend": 22200,
+    "duration": "3 months",
+    "domain": "Cybersecurity",
+    "description": "Support authorized security reviews, reproduce issues in controlled test environments, and write actionable remediation notes. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on application security intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Cybersecurity",
+      "Linux",
+      "Python",
+      "OWASP Top 10",
+      "Network Security"
+    ],
+    "preferred_skills": [
+      "Threat Modeling",
+      "SIEM",
+      "Incident Response"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-12",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-044",
+    "title": "Security Operations Intern",
+    "company": "Asterbyte Labs",
+    "location": "Bengaluru",
+    "mode": "hybrid",
+    "stipend": 24500,
+    "duration": "4 months",
+    "domain": "Cybersecurity",
+    "description": "Support authorized security reviews, reproduce issues in controlled test environments, and write actionable remediation notes. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on security operations intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Linux",
+      "Python",
+      "OWASP Top 10",
+      "Network Security",
+      "Nmap"
+    ],
+    "preferred_skills": [
+      "SIEM",
+      "Incident Response",
+      "Docker"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-09",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-045",
+    "title": "Cloud Security Intern",
+    "company": "Northstar Digital",
+    "location": "Remote",
+    "mode": "onsite",
+    "stipend": 26800,
+    "duration": "6 months",
+    "domain": "Cybersecurity",
+    "description": "Support authorized security reviews, reproduce issues in controlled test environments, and write actionable remediation notes. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on cloud security intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Python",
+      "OWASP Top 10",
+      "Network Security",
+      "Nmap",
+      "Burp Suite"
+    ],
+    "preferred_skills": [
+      "Incident Response",
+      "Docker",
+      "Vulnerability Assessment"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-06",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-046",
+    "title": "Penetration Testing Intern",
+    "company": "Kitebridge Systems",
+    "location": "Hyderabad",
+    "mode": "remote",
+    "stipend": 29100,
+    "duration": "3 months",
+    "domain": "Cybersecurity",
+    "description": "Support authorized security reviews, reproduce issues in controlled test environments, and write actionable remediation notes. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on penetration testing intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "OWASP Top 10",
+      "Network Security",
+      "Nmap",
+      "Burp Suite",
+      "Cryptography"
+    ],
+    "preferred_skills": [
+      "Docker",
+      "Vulnerability Assessment",
+      "Threat Modeling"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-03",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-047",
+    "title": "Threat Research Intern",
+    "company": "Blue Canopy Tech",
+    "location": "Pune",
+    "mode": "hybrid",
+    "stipend": 13400,
+    "duration": "4 months",
+    "domain": "Cybersecurity",
+    "description": "Support authorized security reviews, reproduce issues in controlled test environments, and write actionable remediation notes. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on threat research intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Network Security",
+      "Nmap",
+      "Burp Suite",
+      "Cryptography",
+      "Git"
+    ],
+    "preferred_skills": [
+      "Vulnerability Assessment",
+      "Threat Modeling",
+      "SIEM"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-09-30",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-048",
+    "title": "Network Security Intern",
+    "company": "Cedarwave Analytics",
+    "location": "Remote",
+    "mode": "onsite",
+    "stipend": 15700,
+    "duration": "6 months",
+    "domain": "Cybersecurity",
+    "description": "Support authorized security reviews, reproduce issues in controlled test environments, and write actionable remediation notes. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on network security intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Nmap",
+      "Burp Suite",
+      "Cryptography",
+      "Git",
+      "Wireshark"
+    ],
+    "preferred_skills": [
+      "Threat Modeling",
+      "SIEM",
+      "Incident Response"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-09-27",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-049",
+    "title": "Security Automation Intern",
+    "company": "Mosaic Harbor",
+    "location": "Chennai",
+    "mode": "remote",
+    "stipend": 18000,
+    "duration": "3 months",
+    "domain": "Cybersecurity",
+    "description": "Support authorized security reviews, reproduce issues in controlled test environments, and write actionable remediation notes. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on security automation intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Burp Suite",
+      "Cryptography",
+      "Git",
+      "Wireshark",
+      "Cybersecurity"
+    ],
+    "preferred_skills": [
+      "SIEM",
+      "Incident Response",
+      "Docker"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-24",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-050",
+    "title": "Android Development Intern",
+    "company": "Asterbyte Labs",
+    "location": "Bengaluru",
+    "mode": "hybrid",
+    "stipend": 23900,
+    "duration": "4 months",
+    "domain": "Mobile Development",
+    "description": "Develop and test mobile workflows, integrate application APIs, and ensure layouts remain usable on different screen sizes. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on android development intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Android Development",
+      "Kotlin",
+      "Java",
+      "Flutter",
+      "Dart"
+    ],
+    "preferred_skills": [
+      "Swift",
+      "SwiftUI",
+      "Figma"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-05",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-051",
+    "title": "Flutter Developer Intern",
+    "company": "Northstar Digital",
+    "location": "Remote",
+    "mode": "onsite",
+    "stipend": 26200,
+    "duration": "6 months",
+    "domain": "Mobile Development",
+    "description": "Develop and test mobile workflows, integrate application APIs, and ensure layouts remain usable on different screen sizes. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on flutter developer intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Kotlin",
+      "Java",
+      "Flutter",
+      "Dart",
+      "React Native"
+    ],
+    "preferred_skills": [
+      "SwiftUI",
+      "Figma",
+      "Appium"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-02",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-052",
+    "title": "React Native Intern",
+    "company": "Kitebridge Systems",
+    "location": "Hyderabad",
+    "mode": "remote",
+    "stipend": 28500,
+    "duration": "3 months",
+    "domain": "Mobile Development",
+    "description": "Develop and test mobile workflows, integrate application APIs, and ensure layouts remain usable on different screen sizes. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on react native intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Java",
+      "Flutter",
+      "Dart",
+      "React Native",
+      "JavaScript"
+    ],
+    "preferred_skills": [
+      "Figma",
+      "Appium",
+      "Firebase"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-09-29",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-053",
+    "title": "Mobile UI Intern",
+    "company": "Blue Canopy Tech",
+    "location": "Pune",
+    "mode": "hybrid",
+    "stipend": 12800,
+    "duration": "4 months",
+    "domain": "Mobile Development",
+    "description": "Develop and test mobile workflows, integrate application APIs, and ensure layouts remain usable on different screen sizes. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on mobile ui intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Flutter",
+      "Dart",
+      "React Native",
+      "JavaScript",
+      "Git"
+    ],
+    "preferred_skills": [
+      "Appium",
+      "Firebase",
+      "Swift"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-09-26",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-054",
+    "title": "iOS Development Intern",
+    "company": "Cedarwave Analytics",
+    "location": "Remote",
+    "mode": "onsite",
+    "stipend": 15100,
+    "duration": "6 months",
+    "domain": "Mobile Development",
+    "description": "Develop and test mobile workflows, integrate application APIs, and ensure layouts remain usable on different screen sizes. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on ios development intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Dart",
+      "React Native",
+      "JavaScript",
+      "Git",
+      "REST API"
+    ],
+    "preferred_skills": [
+      "Firebase",
+      "Swift",
+      "SwiftUI"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-23",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-055",
+    "title": "Mobile Testing Intern",
+    "company": "Mosaic Harbor",
+    "location": "Chennai",
+    "mode": "remote",
+    "stipend": 17400,
+    "duration": "3 months",
+    "domain": "Mobile Development",
+    "description": "Develop and test mobile workflows, integrate application APIs, and ensure layouts remain usable on different screen sizes. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on mobile testing intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "React Native",
+      "JavaScript",
+      "Git",
+      "REST API",
+      "Software Testing"
+    ],
+    "preferred_skills": [
+      "Swift",
+      "SwiftUI",
+      "Figma"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-20",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-056",
+    "title": "Cross-Platform App Intern",
+    "company": "Juniper Stack",
+    "location": "Delhi NCR",
+    "mode": "hybrid",
+    "stipend": 19700,
+    "duration": "4 months",
+    "domain": "Mobile Development",
+    "description": "Develop and test mobile workflows, integrate application APIs, and ensure layouts remain usable on different screen sizes. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on cross-platform app intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "JavaScript",
+      "Git",
+      "REST API",
+      "Software Testing",
+      "Android Development"
+    ],
+    "preferred_skills": [
+      "SwiftUI",
+      "Figma",
+      "Appium"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-17",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-057",
+    "title": "UX Research Intern",
+    "company": "Northstar Digital",
+    "location": "Remote",
+    "mode": "onsite",
+    "stipend": 25600,
+    "duration": "6 months",
+    "domain": "UI/UX Design",
+    "description": "Translate research questions into testable prototypes, document usability observations, and collaborate with engineers on inclusive interfaces. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on ux research intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Figma",
+      "UX Design",
+      "UI Design",
+      "User Research",
+      "Wireframing"
+    ],
+    "preferred_skills": [
+      "Adobe XD",
+      "Information Architecture",
+      "Visual Design"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-09-28",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-058",
+    "title": "Product Design Intern",
+    "company": "Kitebridge Systems",
+    "location": "Hyderabad",
+    "mode": "remote",
+    "stipend": 27900,
+    "duration": "3 months",
+    "domain": "UI/UX Design",
+    "description": "Translate research questions into testable prototypes, document usability observations, and collaborate with engineers on inclusive interfaces. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on product design intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "UX Design",
+      "UI Design",
+      "User Research",
+      "Wireframing",
+      "Prototyping"
+    ],
+    "preferred_skills": [
+      "Information Architecture",
+      "Visual Design",
+      "A/B Testing"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-09-25",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-059",
+    "title": "UI Design Intern",
+    "company": "Blue Canopy Tech",
+    "location": "Pune",
+    "mode": "hybrid",
+    "stipend": 12200,
+    "duration": "4 months",
+    "domain": "UI/UX Design",
+    "description": "Translate research questions into testable prototypes, document usability observations, and collaborate with engineers on inclusive interfaces. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on ui design intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "UI Design",
+      "User Research",
+      "Wireframing",
+      "Prototyping",
+      "Usability Testing"
+    ],
+    "preferred_skills": [
+      "Visual Design",
+      "A/B Testing",
+      "Human-Computer Interaction"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-22",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-060",
+    "title": "Interaction Design Intern",
+    "company": "Cedarwave Analytics",
+    "location": "Remote",
+    "mode": "onsite",
+    "stipend": 14500,
+    "duration": "6 months",
+    "domain": "UI/UX Design",
+    "description": "Translate research questions into testable prototypes, document usability observations, and collaborate with engineers on inclusive interfaces. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on interaction design intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "User Research",
+      "Wireframing",
+      "Prototyping",
+      "Usability Testing",
+      "Accessibility"
+    ],
+    "preferred_skills": [
+      "A/B Testing",
+      "Human-Computer Interaction",
+      "Adobe XD"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-19",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-061",
+    "title": "Design Systems Intern",
+    "company": "Mosaic Harbor",
+    "location": "Chennai",
+    "mode": "remote",
+    "stipend": 16800,
+    "duration": "3 months",
+    "domain": "UI/UX Design",
+    "description": "Translate research questions into testable prototypes, document usability observations, and collaborate with engineers on inclusive interfaces. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on design systems intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Wireframing",
+      "Prototyping",
+      "Usability Testing",
+      "Accessibility",
+      "Design Systems"
+    ],
+    "preferred_skills": [
+      "Human-Computer Interaction",
+      "Adobe XD",
+      "Information Architecture"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-16",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-062",
+    "title": "Usability Research Intern",
+    "company": "Juniper Stack",
+    "location": "Delhi NCR",
+    "mode": "hybrid",
+    "stipend": 19100,
+    "duration": "4 months",
+    "domain": "UI/UX Design",
+    "description": "Translate research questions into testable prototypes, document usability observations, and collaborate with engineers on inclusive interfaces. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on usability research intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Prototyping",
+      "Usability Testing",
+      "Accessibility",
+      "Design Systems",
+      "Communication"
+    ],
+    "preferred_skills": [
+      "Adobe XD",
+      "Information Architecture",
+      "Visual Design"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-13",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-063",
+    "title": "Accessibility Design Intern",
+    "company": "Asterbyte Labs",
+    "location": "Bengaluru",
+    "mode": "onsite",
+    "stipend": 21400,
+    "duration": "6 months",
+    "domain": "UI/UX Design",
+    "description": "Translate research questions into testable prototypes, document usability observations, and collaborate with engineers on inclusive interfaces. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on accessibility design intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Usability Testing",
+      "Accessibility",
+      "Design Systems",
+      "Communication",
+      "Figma"
+    ],
+    "preferred_skills": [
+      "Information Architecture",
+      "Visual Design",
+      "A/B Testing"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-10",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-064",
+    "title": "QA Automation Intern",
+    "company": "Kitebridge Systems",
+    "location": "Hyderabad",
+    "mode": "remote",
+    "stipend": 27300,
+    "duration": "3 months",
+    "domain": "Quality Assurance",
+    "description": "Create repeatable test scenarios for user-facing workflows, isolate regressions, and communicate clear evidence to the development team. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on qa automation intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Software Testing",
+      "Pytest",
+      "Playwright",
+      "Selenium",
+      "JavaScript"
+    ],
+    "preferred_skills": [
+      "Cypress",
+      "Jest",
+      "Load Testing"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-21",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-065",
+    "title": "Software Testing Intern",
+    "company": "Blue Canopy Tech",
+    "location": "Pune",
+    "mode": "hybrid",
+    "stipend": 29600,
+    "duration": "4 months",
+    "domain": "Quality Assurance",
+    "description": "Create repeatable test scenarios for user-facing workflows, isolate regressions, and communicate clear evidence to the development team. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on software testing intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Pytest",
+      "Playwright",
+      "Selenium",
+      "JavaScript",
+      "Python"
+    ],
+    "preferred_skills": [
+      "Jest",
+      "Load Testing",
+      "CI/CD"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-18",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-066",
+    "title": "Web Test Engineer Intern",
+    "company": "Cedarwave Analytics",
+    "location": "Remote",
+    "mode": "onsite",
+    "stipend": 13900,
+    "duration": "6 months",
+    "domain": "Quality Assurance",
+    "description": "Create repeatable test scenarios for user-facing workflows, isolate regressions, and communicate clear evidence to the development team. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on web test engineer intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Playwright",
+      "Selenium",
+      "JavaScript",
+      "Python",
+      "API Testing"
+    ],
+    "preferred_skills": [
+      "Load Testing",
+      "CI/CD",
+      "Accessibility Testing"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-15",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-067",
+    "title": "API Quality Intern",
+    "company": "Mosaic Harbor",
+    "location": "Chennai",
+    "mode": "remote",
+    "stipend": 16200,
+    "duration": "3 months",
+    "domain": "Quality Assurance",
+    "description": "Create repeatable test scenarios for user-facing workflows, isolate regressions, and communicate clear evidence to the development team. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on api quality intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Selenium",
+      "JavaScript",
+      "Python",
+      "API Testing",
+      "Postman"
+    ],
+    "preferred_skills": [
+      "CI/CD",
+      "Accessibility Testing",
+      "Cypress"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-12",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-068",
+    "title": "Mobile QA Intern",
+    "company": "Juniper Stack",
+    "location": "Delhi NCR",
+    "mode": "hybrid",
+    "stipend": 18500,
+    "duration": "4 months",
+    "domain": "Quality Assurance",
+    "description": "Create repeatable test scenarios for user-facing workflows, isolate regressions, and communicate clear evidence to the development team. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on mobile qa intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "JavaScript",
+      "Python",
+      "API Testing",
+      "Postman",
+      "Git"
+    ],
+    "preferred_skills": [
+      "Accessibility Testing",
+      "Cypress",
+      "Jest"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-09",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-069",
+    "title": "Performance Testing Intern",
+    "company": "Asterbyte Labs",
+    "location": "Bengaluru",
+    "mode": "onsite",
+    "stipend": 20800,
+    "duration": "6 months",
+    "domain": "Quality Assurance",
+    "description": "Create repeatable test scenarios for user-facing workflows, isolate regressions, and communicate clear evidence to the development team. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on performance testing intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Python",
+      "API Testing",
+      "Postman",
+      "Git",
+      "Unit Testing"
+    ],
+    "preferred_skills": [
+      "Cypress",
+      "Jest",
+      "Load Testing"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-06",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-070",
+    "title": "Test Infrastructure Intern",
+    "company": "Northstar Digital",
+    "location": "Remote",
+    "mode": "remote",
+    "stipend": 23100,
+    "duration": "3 months",
+    "domain": "Quality Assurance",
+    "description": "Create repeatable test scenarios for user-facing workflows, isolate regressions, and communicate clear evidence to the development team. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on test infrastructure intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "API Testing",
+      "Postman",
+      "Git",
+      "Unit Testing",
+      "Software Testing"
+    ],
+    "preferred_skills": [
+      "Jest",
+      "Load Testing",
+      "CI/CD"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-03",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-071",
+    "title": "Embedded Software Intern",
+    "company": "Blue Canopy Tech",
+    "location": "Pune",
+    "mode": "hybrid",
+    "stipend": 29000,
+    "duration": "4 months",
+    "domain": "Embedded Systems",
+    "description": "Prototype and validate firmware features on development hardware, record test observations, and investigate device-to-service communication. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on embedded software intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "C",
+      "C++",
+      "Embedded Systems",
+      "Arduino",
+      "Raspberry Pi"
+    ],
+    "preferred_skills": [
+      "ESP32",
+      "FreeRTOS",
+      "PCB Design"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-14",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-072",
+    "title": "IoT Firmware Intern",
+    "company": "Cedarwave Analytics",
+    "location": "Remote",
+    "mode": "onsite",
+    "stipend": 13300,
+    "duration": "6 months",
+    "domain": "Embedded Systems",
+    "description": "Prototype and validate firmware features on development hardware, record test observations, and investigate device-to-service communication. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on iot firmware intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "C++",
+      "Embedded Systems",
+      "Arduino",
+      "Raspberry Pi",
+      "Linux"
+    ],
+    "preferred_skills": [
+      "FreeRTOS",
+      "PCB Design",
+      "Verilog"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-11",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-073",
+    "title": "Robotics Systems Intern",
+    "company": "Mosaic Harbor",
+    "location": "Chennai",
+    "mode": "remote",
+    "stipend": 15600,
+    "duration": "3 months",
+    "domain": "Embedded Systems",
+    "description": "Prototype and validate firmware features on development hardware, record test observations, and investigate device-to-service communication. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on robotics systems intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Embedded Systems",
+      "Arduino",
+      "Raspberry Pi",
+      "Linux",
+      "Python"
+    ],
+    "preferred_skills": [
+      "PCB Design",
+      "Verilog",
+      "Edge Computing"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-08",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-074",
+    "title": "Hardware Validation Intern",
+    "company": "Juniper Stack",
+    "location": "Delhi NCR",
+    "mode": "hybrid",
+    "stipend": 17900,
+    "duration": "4 months",
+    "domain": "Embedded Systems",
+    "description": "Prototype and validate firmware features on development hardware, record test observations, and investigate device-to-service communication. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on hardware validation intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Arduino",
+      "Raspberry Pi",
+      "Linux",
+      "Python",
+      "Internet of Things"
+    ],
+    "preferred_skills": [
+      "Verilog",
+      "Edge Computing",
+      "ESP32"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-05",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-075",
+    "title": "Edge Computing Intern",
+    "company": "Asterbyte Labs",
+    "location": "Bengaluru",
+    "mode": "onsite",
+    "stipend": 20200,
+    "duration": "6 months",
+    "domain": "Embedded Systems",
+    "description": "Prototype and validate firmware features on development hardware, record test observations, and investigate device-to-service communication. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on edge computing intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Raspberry Pi",
+      "Linux",
+      "Python",
+      "Internet of Things",
+      "Git"
+    ],
+    "preferred_skills": [
+      "Edge Computing",
+      "ESP32",
+      "FreeRTOS"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-02",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-076",
+    "title": "Embedded C Developer Intern",
+    "company": "Northstar Digital",
+    "location": "Remote",
+    "mode": "remote",
+    "stipend": 22500,
+    "duration": "3 months",
+    "domain": "Embedded Systems",
+    "description": "Prototype and validate firmware features on development hardware, record test observations, and investigate device-to-service communication. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on embedded c developer intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Linux",
+      "Python",
+      "Internet of Things",
+      "Git",
+      "Digital Signal Processing"
+    ],
+    "preferred_skills": [
+      "ESP32",
+      "FreeRTOS",
+      "PCB Design"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-09-29",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-077",
+    "title": "Sensor Data Intern",
+    "company": "Kitebridge Systems",
+    "location": "Hyderabad",
+    "mode": "hybrid",
+    "stipend": 24800,
+    "duration": "4 months",
+    "domain": "Embedded Systems",
+    "description": "Prototype and validate firmware features on development hardware, record test observations, and investigate device-to-service communication. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on sensor data intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Python",
+      "Internet of Things",
+      "Git",
+      "Digital Signal Processing",
+      "C"
+    ],
+    "preferred_skills": [
+      "FreeRTOS",
+      "PCB Design",
+      "Verilog"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-09-26",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-078",
+    "title": "Associate Product Intern",
+    "company": "Cedarwave Analytics",
+    "location": "Remote",
+    "mode": "onsite",
+    "stipend": 12700,
+    "duration": "6 months",
+    "domain": "Product Management",
+    "description": "Support discovery and delivery by clarifying user problems, maintaining concise requirements, and using evidence to evaluate product changes. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on associate product intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Product Management",
+      "User Research",
+      "Data Analysis",
+      "Communication",
+      "Project Management"
+    ],
+    "preferred_skills": [
+      "Figma",
+      "Market Research",
+      "Stakeholder Management"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-07",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-079",
+    "title": "Product Operations Intern",
+    "company": "Mosaic Harbor",
+    "location": "Chennai",
+    "mode": "remote",
+    "stipend": 15000,
+    "duration": "3 months",
+    "domain": "Product Management",
+    "description": "Support discovery and delivery by clarifying user problems, maintaining concise requirements, and using evidence to evaluate product changes. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on product operations intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "User Research",
+      "Data Analysis",
+      "Communication",
+      "Project Management",
+      "Agile"
+    ],
+    "preferred_skills": [
+      "Market Research",
+      "Stakeholder Management",
+      "Product Strategy"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-04",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-080",
+    "title": "Product Research Intern",
+    "company": "Juniper Stack",
+    "location": "Delhi NCR",
+    "mode": "hybrid",
+    "stipend": 17300,
+    "duration": "4 months",
+    "domain": "Product Management",
+    "description": "Support discovery and delivery by clarifying user problems, maintaining concise requirements, and using evidence to evaluate product changes. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on product research intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Data Analysis",
+      "Communication",
+      "Project Management",
+      "Agile",
+      "Requirements Analysis"
+    ],
+    "preferred_skills": [
+      "Stakeholder Management",
+      "Product Strategy",
+      "Tableau"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-01",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-081",
+    "title": "Growth Product Intern",
+    "company": "Asterbyte Labs",
+    "location": "Bengaluru",
+    "mode": "onsite",
+    "stipend": 19600,
+    "duration": "6 months",
+    "domain": "Product Management",
+    "description": "Support discovery and delivery by clarifying user problems, maintaining concise requirements, and using evidence to evaluate product changes. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on growth product intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Communication",
+      "Project Management",
+      "Agile",
+      "Requirements Analysis",
+      "Roadmapping"
+    ],
+    "preferred_skills": [
+      "Product Strategy",
+      "Tableau",
+      "Figma"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-09-28",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-082",
+    "title": "Technical Product Intern",
+    "company": "Northstar Digital",
+    "location": "Remote",
+    "mode": "remote",
+    "stipend": 21900,
+    "duration": "3 months",
+    "domain": "Product Management",
+    "description": "Support discovery and delivery by clarifying user problems, maintaining concise requirements, and using evidence to evaluate product changes. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on technical product intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Project Management",
+      "Agile",
+      "Requirements Analysis",
+      "Roadmapping",
+      "A/B Testing"
+    ],
+    "preferred_skills": [
+      "Tableau",
+      "Figma",
+      "Market Research"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-09-25",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-083",
+    "title": "Product Strategy Intern",
+    "company": "Kitebridge Systems",
+    "location": "Hyderabad",
+    "mode": "hybrid",
+    "stipend": 24200,
+    "duration": "4 months",
+    "domain": "Product Management",
+    "description": "Support discovery and delivery by clarifying user problems, maintaining concise requirements, and using evidence to evaluate product changes. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on product strategy intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Agile",
+      "Requirements Analysis",
+      "Roadmapping",
+      "A/B Testing",
+      "SQL"
+    ],
+    "preferred_skills": [
+      "Figma",
+      "Market Research",
+      "Stakeholder Management"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-22",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-084",
+    "title": "Product Analytics Intern",
+    "company": "Blue Canopy Tech",
+    "location": "Pune",
+    "mode": "onsite",
+    "stipend": 26500,
+    "duration": "6 months",
+    "domain": "Product Management",
+    "description": "Support discovery and delivery by clarifying user problems, maintaining concise requirements, and using evidence to evaluate product changes. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on product analytics intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Requirements Analysis",
+      "Roadmapping",
+      "A/B Testing",
+      "SQL",
+      "Product Management"
+    ],
+    "preferred_skills": [
+      "Market Research",
+      "Stakeholder Management",
+      "Product Strategy"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-19",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-085",
+    "title": "Business Analyst Intern",
+    "company": "Mosaic Harbor",
+    "location": "Chennai",
+    "mode": "remote",
+    "stipend": 14400,
+    "duration": "3 months",
+    "domain": "Business Analytics",
+    "description": "Turn operational questions into traceable analyses, validate reporting definitions, and present findings with clear assumptions and recommendations. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on business analyst intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Microsoft Excel",
+      "SQL",
+      "Data Analysis",
+      "Business Analysis",
+      "Power BI"
+    ],
+    "preferred_skills": [
+      "Forecasting",
+      "Financial Modeling",
+      "BigQuery"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-09-30",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-086",
+    "title": "Operations Analytics Intern",
+    "company": "Juniper Stack",
+    "location": "Delhi NCR",
+    "mode": "hybrid",
+    "stipend": 16700,
+    "duration": "4 months",
+    "domain": "Business Analytics",
+    "description": "Turn operational questions into traceable analyses, validate reporting definitions, and present findings with clear assumptions and recommendations. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on operations analytics intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "SQL",
+      "Data Analysis",
+      "Business Analysis",
+      "Power BI",
+      "Statistical Analysis"
+    ],
+    "preferred_skills": [
+      "Financial Modeling",
+      "BigQuery",
+      "Google Analytics"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-09-27",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-087",
+    "title": "Financial Data Intern",
+    "company": "Asterbyte Labs",
+    "location": "Bengaluru",
+    "mode": "onsite",
+    "stipend": 19000,
+    "duration": "6 months",
+    "domain": "Business Analytics",
+    "description": "Turn operational questions into traceable analyses, validate reporting definitions, and present findings with clear assumptions and recommendations. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on financial data intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Data Analysis",
+      "Business Analysis",
+      "Power BI",
+      "Statistical Analysis",
+      "Google Sheets"
+    ],
+    "preferred_skills": [
+      "BigQuery",
+      "Google Analytics",
+      "Process Improvement"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-24",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-088",
+    "title": "BI Reporting Intern",
+    "company": "Northstar Digital",
+    "location": "Remote",
+    "mode": "remote",
+    "stipend": 21300,
+    "duration": "3 months",
+    "domain": "Business Analytics",
+    "description": "Turn operational questions into traceable analyses, validate reporting definitions, and present findings with clear assumptions and recommendations. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on bi reporting intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Business Analysis",
+      "Power BI",
+      "Statistical Analysis",
+      "Google Sheets",
+      "Tableau"
+    ],
+    "preferred_skills": [
+      "Google Analytics",
+      "Process Improvement",
+      "Forecasting"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-21",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-089",
+    "title": "Market Insights Intern",
+    "company": "Kitebridge Systems",
+    "location": "Hyderabad",
+    "mode": "hybrid",
+    "stipend": 23600,
+    "duration": "4 months",
+    "domain": "Business Analytics",
+    "description": "Turn operational questions into traceable analyses, validate reporting definitions, and present findings with clear assumptions and recommendations. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on market insights intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Power BI",
+      "Statistical Analysis",
+      "Google Sheets",
+      "Tableau",
+      "Data Visualization"
+    ],
+    "preferred_skills": [
+      "Process Improvement",
+      "Forecasting",
+      "Financial Modeling"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-18",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-090",
+    "title": "Revenue Analytics Intern",
+    "company": "Blue Canopy Tech",
+    "location": "Pune",
+    "mode": "onsite",
+    "stipend": 25900,
+    "duration": "6 months",
+    "domain": "Business Analytics",
+    "description": "Turn operational questions into traceable analyses, validate reporting definitions, and present findings with clear assumptions and recommendations. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on revenue analytics intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Statistical Analysis",
+      "Google Sheets",
+      "Tableau",
+      "Data Visualization",
+      "Presentation Skills"
+    ],
+    "preferred_skills": [
+      "Forecasting",
+      "Financial Modeling",
+      "BigQuery"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-15",
+    "apply_url": "#"
+  },
+  {
+    "id": "seed-091",
+    "title": "Process Improvement Intern",
+    "company": "Cedarwave Analytics",
+    "location": "Remote",
+    "mode": "remote",
+    "stipend": 28200,
+    "duration": "3 months",
+    "domain": "Business Analytics",
+    "description": "Turn operational questions into traceable analyses, validate reporting definitions, and present findings with clear assumptions and recommendations. The intern will partner with a small product team, share weekly progress, and leave clear notes so that another teammate can reproduce the work. The role focuses on process improvement intern responsibilities and practical, reviewable deliverables.",
+    "required_skills": [
+      "Google Sheets",
+      "Tableau",
+      "Data Visualization",
+      "Presentation Skills",
+      "Microsoft Excel"
+    ],
+    "preferred_skills": [
+      "Financial Modeling",
+      "BigQuery",
+      "Google Analytics"
+    ],
+    "min_education": "Currently pursuing a Bachelor's degree in a relevant field",
+    "posted_date": "2026-10-12",
+    "apply_url": "#"
+  }
+]

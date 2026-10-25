@@ -38,7 +38,8 @@
       "PostgreSQL", "MySQL", "SQLite", "MongoDB", "Microsoft SQL Server", "Oracle Database",
       "MariaDB", "Cassandra", "DynamoDB", "Firestore", "Supabase", "Elasticsearch",
       "OpenSearch", "Neo4j", "Redis Streams", "Apache Spark", "Apache Flink", "Snowflake",
-      "BigQuery", "Databricks", "Data Warehousing", "ETL", "Data Modeling", "Database Design"
+      "BigQuery", "Databricks", "Data Warehousing", "ETL", "Data Modeling", "Database Design",
+      "Firebase"
     ],
     "Cybersecurity and Networking": [
       "Cybersecurity", "Penetration Testing", "OWASP Top 10", "Application Security",
@@ -76,7 +77,7 @@
     ],
     "Business and Analytics": [
       "Microsoft Excel", "Google Sheets", "Tableau", "Power BI", "Looker", "Business Analysis",
-      "Business Intelligence", "Data Analysis", "Statistical Analysis", "SQL Analytics",
+      "Business Intelligence", "Data Analysis", "Data Visualization", "Statistical Analysis", "SQL Analytics",
       "Financial Modeling", "Market Research", "Competitive Analysis", "Growth Analytics",
       "Customer Segmentation", "Google Analytics", "Mixpanel", "Amplitude", "KPI Reporting",
       "Forecasting", "Operations Research", "Process Improvement", "Communication",

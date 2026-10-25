@@ -32,5 +32,10 @@
       <a class="mt-4 inline-block font-semibold text-indigo-700 hover:text-indigo-900" href="{{ url_for('resumes.index') }}">View resumes <span aria-hidden="true">→</span></a>
     </article>
   </div>
+  <section class="mt-8 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+    <h2 class="font-semibold">Explore internship matches</h2>
+    <p class="mt-2 text-sm text-slate-600">See ranked roles with skill overlap, preference fit, and a clear match explanation.</p>
+    <a class="mt-4 inline-block font-semibold text-indigo-700 hover:text-indigo-900" href="{{ url_for('internships.recommendations') }}">Browse recommendations <span aria-hidden="true">→</span></a>
+  </section>
 </section>
 {% endblock %}

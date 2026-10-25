@@ -1,0 +1,5 @@
+weights:
+  semantic_similarity: 0.50
+  skill_overlap: 0.30
+  education_experience_fit: 0.10
+  preference_fit: 0.10
