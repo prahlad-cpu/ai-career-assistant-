@@ -50,3 +50,7 @@
 - Recommendation results are cached by resume/listing pair with content
   fingerprints, so profile, listing, and embedding-backend changes invalidate
   stale results without storing resume text in logs.
+- Database schema changes are versioned with Flask-Migrate and Alembic; app
+  startup no longer creates tables implicitly. The first baseline skips tables
+  already present in pre-migration local databases, and the follow-up revision
+  adds `internships.embedding_fingerprint`.

@@ -78,7 +78,4 @@ def create_app(config_object: type[Config] | str | None = None) -> Flask:
     def upload_too_large(_error):
         return render_template("errors/413.html"), 413
 
-    with app.app_context():
-        db.create_all()
-
     return app
